@@ -1,0 +1,1 @@
+- [x] Modify scrollToSection function in Navigation.tsx to offset scroll position by navbar height to fix Experience nav link
