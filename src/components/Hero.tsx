@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Developer workspace"
           className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/40 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/30 to-background"></div>
       </div>
 
       {/* Content */}

@@ -4,6 +4,7 @@ import jobPortalImage from "@/assets/job-portal.jpg";
 import chatAppImage from "@/assets/chat-app.jpg";
 import collabverseImage from "@/assets/collabverse.jpg";
 import ochiiCloneImage from "@/assets/ochiImage.png";
+import HotelImage from "@/assets/HotelImg.png";
 
 const FeaturedWork = () => {
   const projects = [
@@ -34,6 +35,18 @@ const FeaturedWork = () => {
       githubUrl: "https://github.com/sadhvi1244/Chat_Web_App",
       gradient: "from-blue/20 to-primary/20",
     },
+
+    {
+      title: "Hotel Booking Website",
+      description:
+        "A responsive, multipage hotel booking platform for The Pride Hotel. Project is live in production, currently used by real customers for booking rooms and meals. ",
+      image: HotelImage,
+      tags: ["React.js", "Tailwind CSS", "Material UI", "Framer Motion"],
+      liveUrl: "https://thepridehotel.in/",
+      githubUrl: "",
+      gradient: "from-blue/20 to-primary/20",
+    },
+
     {
       title: "CollabVerse",
       description:
