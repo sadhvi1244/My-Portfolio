@@ -1,4 +1,11 @@
-import { Award, Code, Trophy, Star, CheckCircle2, Award as Badge } from "lucide-react";
+import {
+  Award,
+  Code,
+  Trophy,
+  Star,
+  CheckCircle2,
+  Award as Badge,
+} from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Achievements = () => {
@@ -6,7 +13,8 @@ const Achievements = () => {
     {
       icon: Trophy,
       title: "Best UI/UX Award",
-      description: "HackDiwas Hackathon - Intra-college competition with 60+ teams",
+      description:
+        "HackDiwas Hackathon - Intra-college competition with 60+ teams",
       badge: "Winner",
       color: "from-coral to-coral/70",
       iconColor: "text-coral",
@@ -39,18 +47,24 @@ const Achievements = () => {
 
   const certifications = [
     {
+      title: "React.js (Basic) certification",
+      issuer: "Hackerrank",
+      icon: Badge,
+    },
+    {
       title: "Java Programming and Data Structures",
       issuer: "PW Skills",
       icon: Code,
     },
+
     {
-      title: "Web Development Internship",
-      issuer: "Adivid Technologies",
-      icon: CheckCircle2,
+      title: "Java (Basic) certifiacation",
+      issuer: "Hackerrank",
+      icon: Badge,
     },
     {
-      title: "Best UI/UX Design Award",
-      issuer: "HackDiwas Hackathon",
+      title: "SQL certifiacation",
+      issuer: "LetsUpgrade",
       icon: Badge,
     },
   ];
@@ -62,7 +76,8 @@ const Achievements = () => {
           Achievements & <span className="text-primary">Recognition</span>
         </h2>
         <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
-          Celebrating milestones and continuous learning in the journey of technology
+          Celebrating milestones and continuous learning in the journey of
+          technology
         </p>
 
         {/* Achievements Grid */}
@@ -70,21 +85,22 @@ const Achievements = () => {
           {achievements.map((achievement, index) => {
             const Icon = achievement.icon;
             return (
-              <div
-                key={index}
-                className="group relative"
-              >
+              <div key={index} className="group relative">
                 <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl blur-xl from-primary/20 to-purple-light/20"></div>
                 <Card className="relative h-full border-2 hover:border-primary/50 transition-all duration-300 hover:scale-105">
                   <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${achievement.color} flex items-center justify-center`}>
+                    <div
+                      className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${achievement.color} flex items-center justify-center`}
+                    >
                       <Icon className="w-8 h-8 text-white" />
                     </div>
                     <div>
                       <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold mb-3">
                         {achievement.badge}
                       </div>
-                      <h3 className="text-lg font-bold mb-2">{achievement.title}</h3>
+                      <h3 className="text-lg font-bold mb-2">
+                        {achievement.title}
+                      </h3>
                       <p className="text-sm text-muted-foreground leading-relaxed">
                         {achievement.description}
                       </p>
@@ -115,8 +131,12 @@ const Achievements = () => {
                         <Icon className="w-6 h-6 text-primary" />
                       </div>
                       <div>
-                        <h4 className="font-bold mb-1 leading-tight">{cert.title}</h4>
-                        <p className="text-sm text-muted-foreground">{cert.issuer}</p>
+                        <h4 className="font-bold mb-1 leading-tight">
+                          {cert.title}
+                        </h4>
+                        <p className="text-sm text-muted-foreground">
+                          {cert.issuer}
+                        </p>
                       </div>
                     </div>
                   </CardContent>
