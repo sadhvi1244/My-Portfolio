@@ -6,7 +6,7 @@ const Experience = () => {
       institution: "United University, Prayagraj",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       period: "2022 – 2026",
-      grade: "CGPA: 7.69/10 (3rd Year)",
+      grade: "CGPA: 7.87/10 (3rd Year)",
       icon: GraduationCap,
     },
     {
