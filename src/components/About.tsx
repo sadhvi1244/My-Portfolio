@@ -43,7 +43,7 @@ const About = () => {
               hands-on experience in
               <span className="text-primary font-semibold">
                 {" "}
-                Full Stack (MERN)
+                Full Stack (MERN) & AI
               </span>{" "}
               development and a strong foundation in Data Structures and
               Algorithms.
