@@ -25,17 +25,30 @@ const Experience = () => {
     },
   ];
 
-  const internship = {
+const internship = [
+  {
     company: "Adivid Technologies",
-    role: "Web Development Internship",
+    role: "Web Development Intern",
     period: "Feb 2025 – May 2025",
     type: "Remote",
     responsibilities: [
       "Led the complete frontend from scratch to build a responsive, multipage hotel booking platform for The Pride Hotel.",
-      "Project is live in production, currently used by real customers for booking rooms and meals.",
-      "Tech stack: React.js, Tailwind CSS, Framer Motion, Material UI",
+      "Project is live in production and currently used by real customers for room and meal bookings.",
+      "Tech stack: React.js, Tailwind CSS, Framer Motion, Material UI.",
     ],
-  };
+  },
+  {
+    company: "Prodesk IT & Engineering Services",
+    role: "Backend Development Intern",
+    period: "June 2025 – July 2025",
+    type: "Remote",
+    responsibilities: [
+      "Completed a 30-day internship focused on backend development using Node.js, Express.js, and MongoDB.",
+      "Developed RESTful APIs and implemented authentication, database integration, and CRUD operations through hands-on tasks and mini-projects.",
+      "Gained practical experience with Postman for API testing, server-side programming, and backend deployment fundamentals.",
+    ],
+  },
+];
 
   return (
     <section id="experience" className="py-20 md:py-32 bg-gradient-to-b from-background to-background/50">
