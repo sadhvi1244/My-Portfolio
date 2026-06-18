@@ -65,7 +65,7 @@ const About = () => {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>CGPA: 7.87/10</span>
+                <span>CGPA: 8.07/10</span>
               </div>
             </div>
           </div>
