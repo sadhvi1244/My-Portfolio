@@ -24,17 +24,7 @@ const Experience = () => {
   ];
 
   const internships = [
-    {
-      company: "Prodesk IT & Engineering Services",
-      role: "Backend Development Intern",
-      period: "June 2025 – July 2025",
-      type: "Remote",
-      responsibilities: [
-        "Completed a 30-day internship focused on backend development using Node.js, Express.js, and MongoDB.",
-        "Developed RESTful APIs with authentication, CRUD operations, and MongoDB integration.",
-        "Gained practical experience with Postman, API testing, server-side programming, and deployment fundamentals.",
-      ],
-    },
+
     {
       company: "Adivid Technologies",
       role: "Web Development Intern",
@@ -44,6 +34,17 @@ const Experience = () => {
         "Led the frontend development of a responsive hotel booking platform for The Pride Hotel.",
         "Built production-ready UI used by real customers for room and meal bookings.",
         "Tech stack: React.js, Tailwind CSS, Framer Motion, and Material UI.",
+      ],
+    },
+        {
+      company: "Prodesk IT & Engineering Services",
+      role: "Backend Development Intern",
+      period: "June 2025 – July 2025",
+      type: "Remote",
+      responsibilities: [
+        "Completed a 30-day internship focused on backend development using Node.js, Express.js, and MongoDB.",
+        "Developed RESTful APIs with authentication, CRUD operations, and MongoDB integration.",
+        "Gained practical experience with Postman, API testing, server-side programming, and deployment fundamentals.",
       ],
     },
   ];
