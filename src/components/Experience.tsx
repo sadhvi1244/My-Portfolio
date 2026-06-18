@@ -151,7 +151,7 @@ const internships = [
             </div>
           </div>
         </div>
-      </div>
+
     </section>
   );
 };
