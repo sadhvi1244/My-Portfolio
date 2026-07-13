@@ -38,7 +38,7 @@ const Achievements = () => {
     {
       icon: Award,
       title: "Top 5 Finalist",
-      description: "Google Developer Group, Prayagraj",
+      description: "Google Developer Group Startup show, Prayagraj",
       badge: "Finalist",
       color: "from-purple-light to-purple-light/70",
       iconColor: "text-purple-light",
