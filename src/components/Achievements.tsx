@@ -68,13 +68,13 @@ const Achievements = () => {
       icon: Badge,
     },
         {
-      title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+      title: "Oracle Cloud Infra 2025 Certified AI Foundations Associate",
       issuer: "Oracle",
       icon: Badge,
     },
         {
-      title: "Best UI/UX – HackDiwas 2.0 Hack-a-thon",
-      issuer: "Hackdiwas",
+      title: "Employability Enhancement Programme",
+      issuer: "Centum Foundation &  Infosys Foundation",
       icon: Badge,
     },
   ];
