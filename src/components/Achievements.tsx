@@ -67,6 +67,16 @@ const Achievements = () => {
       issuer: "LetsUpgrade",
       icon: Badge,
     },
+        {
+      title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+      issuer: "Oracle",
+      icon: Badge,
+    },
+        {
+      title: "Best UI/UX – HackDiwas 2.0 Hack-a-thon",
+      issuer: "Hackdiwas",
+      icon: Badge,
+    },
   ];
 
   return (
