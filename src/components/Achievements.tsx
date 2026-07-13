@@ -56,17 +56,18 @@ const Achievements = () => {
       issuer: "PW Skills",
       icon: Code,
     },
+       {
+      title: "SQL certifiacation",
+      issuer: "LetsUpgrade",
+      icon: Badge,
+    },
 
     {
       title: "Java (Basic) certifiacation",
       issuer: "Hackerrank",
       icon: Badge,
     },
-    {
-      title: "SQL certifiacation",
-      issuer: "LetsUpgrade",
-      icon: Badge,
-    },
+ 
         {
       title: "Oracle Cloud Infra 2025 Certified AI Foundations Associate",
       issuer: "Oracle",
