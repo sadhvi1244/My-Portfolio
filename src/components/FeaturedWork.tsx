@@ -57,6 +57,17 @@ const FeaturedWork = () => {
       githubUrl: "https://github.com/sadhvi1244/CollabVerse-Final-main",
       gradient: "from-mint/20 to-blue/20",
     },
+        {
+      title: "Todo-MERN",
+      description:
+        "A sleek and efficient To-Do application designed to help users organize their tasks effectively.",
+      image: "https://images.unsplash.com/photo-1598791318878-10e76d178023?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tags: ["MERN Stack"],
+      liveUrl: "",
+      githubUrl: "https://github.com/sadhvi1244/Todo-MERN",
+      gradient: "from-mint/20 to-blue/20",
+    },
+    
     {
       title: "Ochii Clone",
       description:
@@ -67,6 +78,16 @@ const FeaturedWork = () => {
       githubUrl: "https://github.com/sadhvi1244/ochii",
       gradient: "from-mint/20 to-blue/20",
     },
+     {
+      title: "Currency Converter",
+      description:
+        "A simple and intuitive currency converter application built using React.js. This app allows users to convert between different currencies with real-time exchange rates.",
+      image:"https://raw.githubusercontent.com/sadhvi1244/Currency-Converter/refs/heads/main/currency.jpg" ,
+      tags: ["React.js", "Tailwind CSS", "API"],
+      githubUrl: "https://github.com/sadhvi1244/Currency-Converter",
+      gradient: "from-mint/20 to-blue/20",
+    },
+    
   ];
 
   return (
