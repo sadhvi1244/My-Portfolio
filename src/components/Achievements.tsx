@@ -37,8 +37,8 @@ const Achievements = () => {
     },
     {
       icon: Award,
-      title: "Top 10 Finalist",
-      description: "U-Hack 2.0 Hackathon at UCER, Prayagraj",
+      title: "Top 5 Finalist",
+      description: "Google Developer Group, Prayagraj",
       badge: "Finalist",
       color: "from-purple-light to-purple-light/70",
       iconColor: "text-purple-light",
